@@ -1,0 +1,28 @@
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— OpenRouter API Key ————————————————————————————————        
+remote:        locations:        
+remote:          - commit: 2f341b01e3259da47487b047adb8fa60ea7655ec        
+remote:            path: .env.example:11        
+remote:          - commit: 7c0e03aee0b49dc1e53a9c261f71979799cf76eb        
+remote:            path: .env.example:11        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/NayanthaDhasun/Odoo_Mobile_Sales_AI_Chatbot/security/secret-scanning/unblock-secret/3DDwik2jfHvT95RHSBSC8rHtL1j        
+remote:             
+remote: 
+remote: 
+To https://github.com/NayanthaDhasun/Odoo_Mobile_Sales_AI_Chatbot.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/NayanthaDhasun/Odoo_Mobile_Sales_AI_Chatbot.git'
